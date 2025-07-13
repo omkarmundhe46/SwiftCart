@@ -11,14 +11,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.prashant.api.ecom.ducart.entities.User;
-import com.prashant.api.ecom.ducart.exception.ResourceNotFoundException;
-import com.prashant.api.ecom.ducart.modal.ProfileDTO;
-import com.prashant.api.ecom.ducart.modal.ProfileResponseDTO;
-import com.prashant.api.ecom.ducart.modal.SignupDTO;
-import com.prashant.api.ecom.ducart.modal.SignupResponseDTO;
-import com.prashant.api.ecom.ducart.repositories.UserRepo;
-import com.prashant.api.ecom.ducart.utils.FileUploadUtil;
+import com.ecom.entities.User;
+import com.ecom.exception.ResourceNotFoundException;
+import com.ecom.modal.ProfileDTO;
+import com.ecom.modal.ProfileResponseDTO;
+import com.ecom.modal.SignupDTO;
+import com.ecom.modal.SignupResponseDTO;
+import com.ecom.repositories.UserRepo;
+import com.ecom.utils.FileUploadUtil;
 
 @Service
 public class UserService {

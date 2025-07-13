@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import com.prashant.api.ecom.ducart.modal.NewsletterDTO;
-import com.prashant.api.ecom.ducart.modal.NewsletterResponseDTO;
-import com.prashant.api.ecom.ducart.services.NewsletterService;
+import com.ecom.modal.NewsletterDTO;
+import com.ecom.modal.NewsletterResponseDTO;
+import com.ecom.services.NewsletterService;
 
 @RestController
 @RequestMapping("/newsletter")

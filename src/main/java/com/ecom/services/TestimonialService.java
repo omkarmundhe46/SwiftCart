@@ -10,11 +10,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.prashant.api.ecom.ducart.entities.Testimonial;
-import com.prashant.api.ecom.ducart.modal.TestimonialDTO;
-import com.prashant.api.ecom.ducart.modal.TestimonialResponseDTO;
-import com.prashant.api.ecom.ducart.repositories.TestimonialRepo;
-import com.prashant.api.ecom.ducart.utils.FileUploadUtil;
+import com.ecom.entities.Testimonial;
+import com.ecom.modal.TestimonialDTO;
+import com.ecom.modal.TestimonialResponseDTO;
+import com.ecom.repositories.TestimonialRepo;
+import com.ecom.utils.FileUploadUtil;
 
 @Service
 public class TestimonialService {

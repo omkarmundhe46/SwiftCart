@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.prashant.api.ecom.ducart.modal.ProductDTO;
-import com.prashant.api.ecom.ducart.modal.ProductResponseDTO;
-import com.prashant.api.ecom.ducart.services.ProductService;
+import com.ecom.modal.ProductDTO;
+import com.ecom.modal.ProductResponseDTO;
+import com.ecom.services.ProductService;
 
 @RestController
 @RequestMapping("/product")

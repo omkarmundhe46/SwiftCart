@@ -11,11 +11,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.prashant.api.ecom.ducart.entities.Maincategory;
-import com.prashant.api.ecom.ducart.modal.MainResponseDTO;
-import com.prashant.api.ecom.ducart.modal.MaincategoryDTO;
-import com.prashant.api.ecom.ducart.repositories.MaincategoryRepo;
-import com.prashant.api.ecom.ducart.utils.FileUploadUtil;
+import com.ecom.entities.Maincategory;
+import com.ecom.modal.MainResponseDTO;
+import com.ecom.modal.MaincategoryDTO;
+import com.ecom.repositories.MaincategoryRepo;
+import com.ecom.utils.FileUploadUtil;
 
 @Service
 public class MaincategoryService {

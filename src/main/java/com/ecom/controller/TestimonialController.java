@@ -18,10 +18,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.prashant.api.ecom.ducart.modal.TestimonialDTO;
-import com.prashant.api.ecom.ducart.modal.TestimonialResponseDTO;
+import com.ecom.modal.TestimonialDTO;
+import com.ecom.modal.TestimonialResponseDTO;
 
-import com.prashant.api.ecom.ducart.services.TestimonialService;
+import com.ecom.services.TestimonialService;
 
 @RestController
 @RequestMapping("/testimonial")

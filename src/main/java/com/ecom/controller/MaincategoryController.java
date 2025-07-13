@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.prashant.api.ecom.ducart.modal.MainResponseDTO;
-import com.prashant.api.ecom.ducart.modal.MaincategoryDTO;
-import com.prashant.api.ecom.ducart.services.MaincategoryService;
+import com.ecom.modal.MainResponseDTO;
+import com.ecom.modal.MaincategoryDTO;
+import com.ecom.services.MaincategoryService;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.prashant.api.ecom.ducart.modal.ProfileDTO;
-import com.prashant.api.ecom.ducart.modal.ProfileResponseDTO;
-import com.prashant.api.ecom.ducart.modal.SignupDTO;
-import com.prashant.api.ecom.ducart.modal.SignupResponseDTO;
-import com.prashant.api.ecom.ducart.services.UserService;
+import com.ecom.modal.ProfileDTO;
+import com.ecom.modal.ProfileResponseDTO;
+import com.ecom.modal.SignupDTO;
+import com.ecom.modal.SignupResponseDTO;
+import com.ecom.services.UserService;
 
 import jakarta.validation.Valid;
 

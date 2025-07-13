@@ -8,10 +8,10 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.prashant.api.ecom.ducart.entities.Newsletter;
-import com.prashant.api.ecom.ducart.modal.NewsletterDTO;
-import com.prashant.api.ecom.ducart.modal.NewsletterResponseDTO;
-import com.prashant.api.ecom.ducart.repositories.NewsletterRepo;
+import com.ecom.entities.Newsletter;
+import com.ecom.modal.NewsletterDTO;
+import com.ecom.modal.NewsletterResponseDTO;
+import com.ecom.repositories.NewsletterRepo;
 
 @Service
 public class NewsletterService {

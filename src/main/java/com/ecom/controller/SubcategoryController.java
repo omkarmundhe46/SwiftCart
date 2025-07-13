@@ -20,9 +20,9 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.prashant.api.ecom.ducart.modal.SubcategoryDTO;
-import com.prashant.api.ecom.ducart.modal.SubcategoryResponseDTO;
-import com.prashant.api.ecom.ducart.services.SubcategoryService;
+import com.ecom.modal.SubcategoryDTO;
+import com.ecom.modal.SubcategoryResponseDTO;
+import com.ecom.services.SubcategoryService;
 
 @RestController
 @RequestMapping("/subcategory")

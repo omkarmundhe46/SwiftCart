@@ -13,11 +13,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.prashant.api.ecom.ducart.entities.Product;
-import com.prashant.api.ecom.ducart.modal.ProductDTO;
-import com.prashant.api.ecom.ducart.modal.ProductResponseDTO;
-import com.prashant.api.ecom.ducart.repositories.ProductRepo;
-import com.prashant.api.ecom.ducart.utils.FileUploadUtil;
+import com.ecom.entities.Product;
+import com.ecom.modal.ProductDTO;
+import com.ecom.modal.ProductResponseDTO;
+import com.ecom.repositories.ProductRepo;
+import com.ecom.utils.FileUploadUtil;
 
 @Service
 public class ProductService {

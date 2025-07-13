@@ -12,11 +12,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.prashant.api.ecom.ducart.entities.Brand;
-import com.prashant.api.ecom.ducart.modal.BrandDTO;
-import com.prashant.api.ecom.ducart.modal.BrandResponseDTO;
-import com.prashant.api.ecom.ducart.repositories.BrandRepo;
-import com.prashant.api.ecom.ducart.utils.FileUploadUtil;
+import com.ecom.entities.Brand;
+import com.ecom.modal.BrandDTO;
+import com.ecom.modal.BrandResponseDTO;
+import com.ecom.repositories.BrandRepo;
+import com.ecom.utils.FileUploadUtil;
 
 @Service
 public class BrandService {
